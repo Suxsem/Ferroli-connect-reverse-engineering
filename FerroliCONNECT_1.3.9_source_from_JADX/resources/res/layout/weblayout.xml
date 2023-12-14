@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p003v7.widget.Toolbar android:theme="@style/AppTheme.Dark" android:id="@+id/my_toolbar" android:background="@color/ferroli_green" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:contentInsetStart="0dp" app:navigationIcon="@drawable/back_button_selector">
+        <TextView android:textAppearance="@style/ToolbarTitle" android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_register" android:layout_centerInParent="true"/>
+    </android.support.p003v7.widget.Toolbar>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@+id/web" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ProgressBar android:id="@+id/progressBar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="3dp" android:progressDrawable="@drawable/pg" style="?android:attr/progressBarStyleHorizontal"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:background="@color/cloudwarm_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top9_margin">
+        <TextView android:textSize="@dimen/text_size_little" android:textColor="@color/cloudwarm_orange" android:id="@+id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="Set temperature"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top9_margin">
+        <com.szacs.ferroliconnect.widget.wheel.WheelView android:id="@+id/passw_1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top9_margin" android:layout_marginBottom="@dimen/activity_top9_margin">
+        <TextView android:id="@+id/ivCancel" android:layout_width="wrap_content" android:layout_height="@dimen/activity_boiler_image_3" android:text="@string/public_cancel"/>
+        <TextView android:id="@+id/ivConfirm" android:layout_width="wrap_content" android:layout_height="@dimen/activity_boiler_image_3" android:layout_marginLeft="@dimen/activity_width4" android:text="@string/public_confirm"/>
+    </LinearLayout>
+</LinearLayout>

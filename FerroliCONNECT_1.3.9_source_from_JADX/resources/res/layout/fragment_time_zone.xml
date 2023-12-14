@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/cloudwarm_white" android:padding="20dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_whether_sync_time_with_phone"/>
+    <CheckBox android:textColor="@color/ferroli_green" android:id="@+id/cbAutoDaylight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top9_margin" android:checked="true" android:text="@string/dialog_auto_daylight"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:id="@+id/dialog_wrapper" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/qmui_dialog_wrapper_style">
+    <View android:id="@+id/anchor_top" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <com.qmuiteam.qmui.widget.dialog.QMUIDialogView android:orientation="vertical" android:id="@+id/dialog" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/qmui_dialog_wrap"/>
+    <View android:id="@+id/anchor_bottom" android:layout_width="match_parent" android:layout_height="0dp"/>
+</LinearLayout>

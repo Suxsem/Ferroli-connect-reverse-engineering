@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.szacs.ferroliconnect.widget.WaterWaveView android:id="@+id/wwvConfiguring" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <p109de.hdodenhof.circleimageview.CircleImageView android:layout_width="70dp" android:layout_height="70dp" android:src="@drawable/wifi2" android:layout_centerInParent="true" app:civ_border_width="0dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="@string/configure_wifi_configuring_device" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

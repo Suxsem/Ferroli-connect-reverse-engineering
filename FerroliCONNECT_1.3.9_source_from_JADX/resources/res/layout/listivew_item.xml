@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qmuiteam.qmui.layout.QMUILinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" app:qmui_bottomDividerColor="@color/cloudwarm_grey_lite_2" app:qmui_bottomDividerHeight="0.5dp">
+    <FrameLayout android:layout_width="@dimen/list_pic_size" android:layout_height="@dimen/list_pic_size" android:layout_margin="10dp">
+        <ImageView android:id="@+id/defaultImg" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/devicelist"/>
+        <p109de.hdodenhof.circleimageview.CircleImageView android:id="@+id/circleImg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="@dimen/text_size_middle" android:textColor="@color/ferroli_green" android:ellipsize="end" android:id="@+id/textViewDeviceName" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Apple" android:maxLines="1"/>
+        <TextView android:textSize="@dimen/text_size_middle2" android:textColor="@color/cloudwarm_grey_lite_2" android:ellipsize="end" android:id="@+id/textViewID" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="ID:" android:singleLine="true"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/wifi_level" android:layout_width="22dp" android:layout_height="22dp" android:layout_marginRight="10dp"/>
+    <ImageView android:id="@+id/imageViewEnterDevice" android:layout_width="@dimen/list_icon_size" android:layout_height="@dimen/list_icon_size" android:layout_marginRight="10dp" android:src="@drawable/online"/>
+</com.qmuiteam.qmui.layout.QMUILinearLayout>

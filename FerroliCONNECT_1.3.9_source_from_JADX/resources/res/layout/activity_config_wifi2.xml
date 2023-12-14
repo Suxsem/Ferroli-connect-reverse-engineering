@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/llMain" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p003v7.widget.Toolbar android:theme="@style/AppTheme.Dark" android:id="@+id/my_toolbar" android:background="@color/ferroli_green" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:layout_alignParentTop="true" app:contentInsetStart="0dp" app:navigationIcon="@drawable/back_button_selector">
+        <TextView android:textAppearance="@style/ToolbarTitle" android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menu_config_wifi" android:layout_centerInParent="true"/>
+    </android.support.p003v7.widget.Toolbar>
+    <FrameLayout android:id="@+id/flFragment" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/rlBottom" android:layout_below="@+id/my_toolbar"/>
+    <RelativeLayout android:id="@+id/rlBottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@+id/ivBack" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="15dp" android:src="@drawable/back"/>
+        <ImageView android:id="@+id/ivNext" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="15dp" android:src="@drawable/next" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</RelativeLayout>

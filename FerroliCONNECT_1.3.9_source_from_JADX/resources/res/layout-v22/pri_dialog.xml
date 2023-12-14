@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/shape_white_bg_corner_16" android:layout_width="300dp" android:layout_height="500dp">
+    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/qmui_config_color_pure_black" android:gravity="center" android:id="@+id/tv_title" android:paddingTop="@dimen/dp_10" android:paddingBottom="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/dp_10"/>
+    <ScrollView android:id="@+id/scrollView" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@+id/appLayout" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/gt_privacy_dialog_tip_1"/>
+                </LinearLayout>
+                <CheckBox android:enabled="false" android:id="@+id/appCB" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"/>
+            </LinearLayout>
+            <View android:background="#ddd" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@+id/pushLayout" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:textSize="16sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/gt_privacy_dialog_tip_2"/>
+                    <TextView android:textSize="13sp" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/pri_dlg_msg_sdk" android:lineSpacingMultiplier="1.3"/>
+                </LinearLayout>
+                <CheckBox android:id="@+id/pushCB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textSize="12sp" android:id="@+id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingTop="@dimen/dp_10" android:paddingBottom="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/dp_10">
+        <TextView android:textSize="16sp" android:id="@+id/tv_cancel" android:padding="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_10" android:text="Refuse"/>
+        <TextView android:textSize="16sp" android:id="@+id/tv_agree" android:padding="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_10" android:text="Agree"/>
+    </LinearLayout>
+</LinearLayout>

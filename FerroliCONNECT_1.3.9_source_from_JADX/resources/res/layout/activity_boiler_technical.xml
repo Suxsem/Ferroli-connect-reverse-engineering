@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.baoyz.widget.PullRefreshLayout android:id="@+id/refreshLayout" android:layout_width="match_parent" android:layout_height="match_parent" app:refreshType="0">
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/mainLinearLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/llHeatingTargetTempSettingOptions" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_heating_target_temp_setting_options"/>
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvHeatingTargetTempSettingOption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginBottom="5dp" android:text="@string/public_loading"/>
+                    </LinearLayout>
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="10dp" android:src="@drawable/set"/>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/llMaxHeatingSetPoint" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                        <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_max_heating_set_point"/>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvTechValueMaxHeatingSetPoint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/public_loading"/>
+                            <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvTechUnitMaxHeatingSetPoint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginBottom="5dp" android:text="℃"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="10dp" android:src="@drawable/set"/>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_heating_set_point"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvTechValueHeatingSetPoint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/public_loading"/>
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvTechUnitHeatingSetPoint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginBottom="5dp" android:text="℃"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="#dddddd" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_flow_temp"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvHeatCurrentTemp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/public_loading"/>
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvHeatCurrentTempUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginBottom="5dp" android:text="℃"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_heating_temp_range"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvHeatTempRange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/public_loading"/>
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvHeatTempRangeUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginBottom="5dp" android:text="℃"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_return_temp"/>
+                    <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvReturnWaterTemp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginBottom="5dp" android:text="@string/public_loading"/>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_hot_water_set_point"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvTechValueHotWaterSetPoint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/public_loading"/>
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvTechUnitHotWaterSetPoint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginBottom="5dp" android:text="℃"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_hot_water_temp"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvTechValueHotWaterTemp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/public_loading"/>
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvTechUnitHotWaterTemp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginBottom="5dp" android:text="℃"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="#dddddd" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_flue_temp"/>
+                    <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvFlueTemp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginBottom="5dp" android:text="@string/public_loading"/>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_out_temp"/>
+                    <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvOutTemp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginBottom="5dp" android:text="@string/public_loading"/>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_bath_water_temp_range"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvBathTempRange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/public_loading"/>
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvBathTempUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginBottom="5dp" android:text="℃"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_flame_status"/>
+                    <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvTechValueFlameStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginBottom="5dp" android:text="@string/public_loading"/>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/llAlarmCode" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                        <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_alarm_code"/>
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvTechValueAlarmCode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginBottom="5dp" android:text="@string/boiler_tech_click_to_detail"/>
+                    </LinearLayout>
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="10dp" android:src="@drawable/online"/>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_hours_heat_exchanger_cleaning"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvTechValueHoursHeatExchangerCleaning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/public_loading"/>
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvTechUnitHoursHeatExchangerCleaning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginBottom="5dp" android:text="hours"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_heat_status"/>
+                    <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvHeatStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginBottom="5dp" android:text="@string/public_loading"/>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_water_flow_state"/>
+                    <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvWaterSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginBottom="5dp" android:text="@string/public_loading"/>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_machine_type"/>
+                    <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvMachineType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginBottom="5dp" android:text="@string/public_loading"/>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_heating_type"/>
+                    <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvHeatType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginBottom="5dp" android:text="@string/public_loading"/>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_gas_type"/>
+                    <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvGasType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginBottom="5dp" android:text="@string/public_loading"/>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_connect_type"/>
+                    <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvConnectType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginBottom="5dp" android:text="@string/public_loading"/>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_modulation_radio"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvTechValueModulationRadio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/public_loading"/>
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvTechUnitModulationRadio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginBottom="5dp" android:text="%"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_out_water_temp"/>
+                    <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvOutWaterTemp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginBottom="5dp" android:text="@string/public_loading"/>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_water_rate"/>
+                    <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvWaterRate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginBottom="5dp" android:text="@string/public_loading"/>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="@string/boiler_tech_sys_press"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvTechValueSysPress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/public_loading"/>
+                        <TextView android:textSize="15dp" android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/tvTechUnitSysPress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginBottom="5dp" android:text="bar"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="#dddddd" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </com.baoyz.widget.PullRefreshLayout>
+</LinearLayout>

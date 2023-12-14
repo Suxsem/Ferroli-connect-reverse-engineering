@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/ferroli_boiler_thermostat_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <HorizontalScrollView android:id="@+id/hsvProgram" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.szacs.ferroliconnect.widget.wheel.BarViewBeSmart196 android:id="@+id/bvProgram" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </HorizontalScrollView>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.szacs.ferroliconnect.widget.TemperView android:id="@+id/temperView" android:layout_width="300dp" android:layout_height="300dp" android:layout_centerInParent="true" app:Angle="200" app:MaxValue="35" app:MinValue="5" app:TextSize="10dp"/>
+    <TextView android:textSize="@dimen/text_size_lxlarge" android:textColor="@color/cloudwarm_white" android:id="@+id/tvTempSet" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="N/A" android:layout_centerInParent="true"/>
+    <ImageView android:id="@+id/ivTempSettingIcon" android:visibility="visible" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="wrap_content" android:src="@drawable/target_temp_with" android:layout_above="@+id/tvTempSet" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="@dimen/program_text_size_little" android:textColor="@color/cloudwarm_white" android:id="@+id/tips" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/room_set_point" android:layout_below="@+id/tvTempSet" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="@dimen/text_size_mlarge" android:textColor="@color/cloudwarm_white" android:id="@+id/unit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-5dp" android:text="°" android:layout_alignTop="@+id/tvTempSet" android:layout_alignRight="@+id/tvTempSet"/>
+</merge>

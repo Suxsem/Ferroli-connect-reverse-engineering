@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="http_errors">
+        <item>请输入合法的邮件地址</item>
+        <item>提交的手机号不规范</item>
+        <item>手机号被占用</item>
+        <item>手机号不一致</item>
+        <item>新手机号不规范</item>
+        <item>发送邮箱验证码主题无效</item>
+        <item>验证码类型参数错误</item>
+        <item>邮箱已被使用</item>
+        <item>用户不存在</item>
+        <item>验证码已发送过</item>
+        <item>验证码发送失败</item>
+        <item>请求IP异常</item>
+        <item>密码长度不在[6, 16]</item>
+        <item>验证码错误</item>
+        <item>验证码已过期</item>
+        <item>验证码输错次数超限，请重新点击发送验证码</item>
+        <item>验证码已被使用</item>
+        <item>验证码格式错误</item>
+        <item>设备不存在</item>
+        <item>用户名无效</item>
+        <item>邮件地址非法</item>
+        <item>设备已被其他用户绑定</item>
+        <item>用户无效</item>
+        <item>邮箱不存在</item>
+        <item>用户名已被使用</item>
+    </array>
+</resources>

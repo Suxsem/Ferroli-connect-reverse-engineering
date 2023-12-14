@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:id="@+id/tvAlarmRecordDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="01/02/2014"/>
+        <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:id="@+id/tvAlarmRecordTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="20:30"/>
+        <TextView android:textSize="20dp" android:textColor="@color/cloudwarm_grey" android:id="@+id/tvAlarmRecordCode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:text="A01"/>
+    </LinearLayout>
+</LinearLayout>

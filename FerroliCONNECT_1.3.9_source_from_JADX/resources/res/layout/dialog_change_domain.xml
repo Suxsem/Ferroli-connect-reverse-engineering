@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:paddingLeft="20dp" android:paddingTop="20dp" android:paddingRight="20dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="300dp">
+    <Spinner android:id="@+id/sp_select_domain" android:layout_width="match_parent" android:layout_height="wrap_content" android:dropDownWidth="match_parent" android:spinnerMode="dropdown"/>
+</LinearLayout>

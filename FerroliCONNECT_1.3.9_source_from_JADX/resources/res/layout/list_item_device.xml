@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/itemLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/rltest" android:layout_width="match_parent" android:layout_height="@dimen/list_item_height" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <p109de.hdodenhof.circleimageview.CircleImageView android:id="@+id/civDevice" android:layout_width="@dimen/list_item_pic" android:layout_height="@dimen/list_item_pic" android:src="@drawable/devicelist" app:civ_border_color="@color/cloudwarm_orange" app:civ_border_width="0dp"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/llDescribe" android:paddingLeft="@dimen/activity_left3_margin" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/list_item_txt1" android:textColor="#585858" android:ellipsize="end" android:id="@+id/textViewDeviceName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/list_roomname_width" android:text="" android:maxLines="1"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp">
+                            <TextView android:textSize="@dimen/list_item_txt3" android:textColor="#585858" android:id="@+id/textViewID" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ID:"/>
+                            <TextView android:textSize="@dimen/list_item_txt3" android:textColor="#585858" android:id="@+id/textViewDeviceId" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true">
+                <ImageView android:id="@+id/imageViewBoilerExist" android:layout_width="@dimen/list_item_next" android:layout_height="@dimen/list_item_next" android:src="@drawable/boiler_offline"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center" android:id="@+id/imageViewEnterDevice" android:layout_width="match_parent" android:layout_height="@dimen/list_item_next" android:src="@drawable/online" android:layout_weight="6"/>
+    </LinearLayout>
+    <View android:background="#595959" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="@dimen/activity_left3_margin" android:layout_marginRight="@dimen/activity_left3_margin"/>
+</LinearLayout>

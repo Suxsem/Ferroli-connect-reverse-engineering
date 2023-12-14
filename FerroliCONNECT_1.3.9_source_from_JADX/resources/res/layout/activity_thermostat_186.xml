@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/mainLinearLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="4">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/llWeather" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="4">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/ivWeather" android:layout_width="@dimen/activity_boiler_image_bottom_button" android:layout_height="@dimen/activity_boiler_image_bottom_button" android:layout_marginLeft="@dimen/weather_margin" android:src="@drawable/weather_cloud" android:adjustViewBounds="true" android:layout_marginStart="@dimen/weather_margin"/>
+            <TextView android:textSize="@dimen/text_size_large" android:textColor="#585858" android:layout_gravity="center_vertical" android:id="@+id/tvTempOut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_size_little" android:text="- -" android:layout_marginStart="@dimen/text_size_little"/>
+            <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/cloudwarm_grey" android:layout_gravity="center_vertical" android:id="@+id/tvTempOutUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="°C"/>
+            <TextView android:textSize="@dimen/text_size_little" android:textColor="@color/cloudwarm_grey" android:id="@+id/tvLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/llHeating2" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                    <ImageView android:id="@+id/ivHeating2" android:layout_width="@dimen/activity_boiler_image_4" android:layout_height="@dimen/activity_boiler_image_bottom_button" android:src="@drawable/heating_on"/>
+                    <TextView android:textSize="@dimen/text_size_little" android:textColor="#585858" android:id="@+id/tvHeating2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top10_margin" android:text="@string/room_heating_status_stop"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/activity_boiler_image_2">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+                        <ImageView android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="match_parent" android:src="@drawable/indoor_temp"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+                        <ImageView android:id="@+id/ivTempSettingIcon" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="match_parent" android:src="@drawable/target_temp"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textSize="@dimen/text_size_xlxlarge" android:textColor="#dc4e28" android:layout_gravity="center_vertical" android:id="@+id/tvTempNow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="N/A"/>
+                        <TextView android:textSize="@dimen/text_size_xlxlarge" android:textColor="#dc4e28" android:layout_gravity="center_vertical" android:id="@+id/tvTempNowUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="°" android:layout_toRightOf="@+id/tvTempNow" android:layout_alignTop="@+id/tvTempNow"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/llTempSetting" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textSize="@dimen/text_size_lxlarge" android:textColor="#dc4e28" android:layout_gravity="center_vertical" android:id="@+id/tvTempSet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="N/A"/>
+                        <TextView android:textSize="@dimen/text_size_lxlarge" android:textColor="#dc4e28" android:layout_gravity="center_vertical" android:id="@+id/tvTempSetUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="°" android:layout_toRightOf="@+id/tvTempNow" android:layout_alignTop="@+id/tvTempNow"/>
+                        <ImageView android:layout_gravity="center_vertical" android:id="@+id/ivSettingButton" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="@dimen/activity_boiler_image_2" android:layout_marginLeft="@dimen/activity_boiler_image_2" android:src="@drawable/set" android:layout_weight="1"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/llTempOff" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textSize="@dimen/text_size_lxlarge" android:textColor="#dc4e28" android:layout_gravity="center_vertical" android:id="@+id/tvTempOff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5.0"/>
+                        <TextView android:textSize="@dimen/text_size_lxlarge" android:textColor="#dc4e28" android:layout_gravity="center_vertical" android:id="@+id/tvTempOffUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="°" android:layout_toRightOf="@+id/tvTempNow" android:layout_alignTop="@+id/tvTempNow"/>
+                        <ImageView android:layout_gravity="center_vertical" android:visibility="invisible" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="@dimen/activity_boiler_image_2" android:layout_marginLeft="@dimen/activity_boiler_image_2" android:src="@drawable/set" android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="8">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/llManual" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="3">
+            <ImageView android:id="@+id/ivHeating" android:layout_width="@dimen/activity_boiler_image_4" android:layout_height="@dimen/activity_boiler_image_bottom_button" android:src="@drawable/heating_off"/>
+            <TextView android:textSize="@dimen/text_size_little" android:textColor="#585858" android:id="@+id/tvHeating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top10_margin" android:text="@string/room_heating_status_stop"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/llProgram" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="3">
+            <HorizontalScrollView android:id="@+id/hsvProgram" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.szacs.ferroliconnect.widget.BarView48 android:id="@+id/bvProgram" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+            </HorizontalScrollView>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/llOff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="3">
+            <ImageView android:layout_width="@dimen/activity_boiler_image_4" android:layout_height="@dimen/activity_boiler_image_bottom_button" android:src="@drawable/heating_off"/>
+            <TextView android:textSize="@dimen/text_size_little" android:textColor="#585858" android:id="@+id/tvHeating3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top10_margin" android:text="@string/room_heating_status_stop"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/llModel276" android:background="#72bb38" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+            <RelativeLayout android:id="@+id/rlManualButton" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/ivManual" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:src="@drawable/sole_copia" android:layout_centerInParent="true"/>
+                <View android:background="#ffffff" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_alignParentRight="true"/>
+                <View android:id="@+id/vManualRedLine" android:background="#dc4e28" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="1dp" android:layout_marginTop="@dimen/activity_top10_margin" android:layout_below="@+id/ivManual" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rlTimingButton" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/ivTimming" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:src="@drawable/luna_copia" android:layout_centerInParent="true"/>
+                <View android:background="#ffffff" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_alignParentRight="true"/>
+                <View android:id="@+id/vTimingRedLine" android:background="#dc4e28" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="1dp" android:layout_marginTop="@dimen/activity_top10_margin" android:layout_below="@+id/ivTimming" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rlStandbyButton" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/ivStandby" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:src="@drawable/standby_button" android:layout_centerInParent="true"/>
+                <View android:id="@+id/vStandbyRedLine" android:background="#dc4e28" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="1dp" android:layout_marginTop="@dimen/activity_top10_margin" android:layout_below="@+id/ivStandby" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/llModelZV" android:background="#72bb38" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+            <RelativeLayout android:id="@+id/rlZVTimmingButton" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textColor="#ffffff" android:id="@+id/tvTimming" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="自动" android:layout_centerInParent="true"/>
+                <View android:background="#ffffff" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_alignParentRight="true"/>
+                <View android:id="@+id/vZVTimmingRedLine" android:background="#dc4e28" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="1dp" android:layout_marginTop="@dimen/activity_top10_margin" android:layout_below="@+id/tvTimming" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rlZVComfButton" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textColor="#ffffff" android:id="@+id/tvComf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="舒适" android:layout_centerInParent="true"/>
+                <View android:background="#ffffff" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_alignParentRight="true"/>
+                <View android:id="@+id/vZVComfRedLine" android:background="#dc4e28" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="1dp" android:layout_marginTop="@dimen/activity_top10_margin" android:layout_below="@+id/tvComf" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rlZVEconButton" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textColor="#ffffff" android:id="@+id/tvEcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="节能" android:layout_centerInParent="true"/>
+                <View android:background="#ffffff" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_alignParentRight="true"/>
+                <View android:id="@+id/vZVEconRedLine" android:background="#dc4e28" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="1dp" android:layout_marginTop="@dimen/activity_top10_margin" android:layout_below="@+id/tvEcon" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rlZVPartyButton" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textColor="#ffffff" android:id="@+id/tvParty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="派对" android:layout_centerInParent="true"/>
+                <View android:background="#ffffff" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_alignParentRight="true"/>
+                <View android:id="@+id/vZVPartyRedLine" android:background="#dc4e28" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="1dp" android:layout_marginTop="@dimen/activity_top10_margin" android:layout_below="@+id/tvParty" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rlZVOut" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textColor="#ffffff" android:id="@+id/tvOut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="度假" android:layout_centerInParent="true"/>
+                <View android:background="#ffffff" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_alignParentRight="true"/>
+                <View android:id="@+id/vZVOut" android:background="#dc4e28" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="1dp" android:layout_marginTop="@dimen/activity_top10_margin" android:layout_below="@+id/tvOut" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rlZVManualButton" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textColor="#ffffff" android:id="@+id/tvManual" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="手动" android:layout_centerInParent="true"/>
+                <View android:id="@+id/vZVManualRedLine" android:background="#dc4e28" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="1dp" android:layout_marginTop="@dimen/activity_top10_margin" android:layout_below="@+id/tvManual" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

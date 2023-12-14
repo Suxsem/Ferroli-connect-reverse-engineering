@@ -1,0 +1,226 @@
+<root>
+    <province name="England">
+
+        <city name="Bath" owm_id="2656173">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Birmingham" owm_id="2655603">
+            <district name="" zipcode="420000" />
+        </city>
+        <city name="Bradford" owm_id="5181416">
+            <district name="" zipcode="400000" />
+        </city>
+        <city name="Brighton&amp;Hove" owm_id="2654710">
+            <district name="" zipcode="430000" />
+        </city>
+        <city name="Bristol" owm_id="2654675">
+            <district name="" zipcode="440000" />
+        </city>
+        <city name="Cambridge" owm_id="2653941">
+            <district name="" zipcode="450000" />
+        </city>
+
+        <city name="Canterbury" owm_id="2653877">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Carlisle" owm_id="2653775">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Chester" owm_id="2653228">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Chichester" owm_id="2653192">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Coventry" owm_id="2652221">
+            <district name="" zipcode="450000" />
+        </city>
+
+        <city name="Derby" owm_id="2651347">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Durham" owm_id="2650628">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Ely" owm_id="2650023">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Exeter" owm_id="2649808">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Gloucester" owm_id="2648404">
+            <district name="" zipcode="450000" />
+        </city>
+
+        <city name="Hereford" owm_id="7294543">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Kingston upon Hull" owm_id="3333159">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Lancaster" owm_id="2644972">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Leeds" owm_id="2644688">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Leicester" owm_id="2644668">
+            <district name="" zipcode="450000" />
+        </city>
+
+        <city name="Lichfield" owm_id="2644531">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Lincoln" owm_id="2644487">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Liverpool" owm_id="2644210">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="London" owm_id="2643743">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Manchester" owm_id="2643123">
+            <district name="" zipcode="450000" />
+        </city>
+
+        <city name="Newcastle upon Tyne" owm_id="2641673">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Norwich" owm_id="2641181">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Nottingham" owm_id="2641170">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Oxford" owm_id="2640729">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Peterborough" owm_id="2640354">
+            <district name="" zipcode="450000" />
+        </city>
+
+        <city name="Plymouth" owm_id="2640194">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Portsmouth" owm_id="2639996">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Preston" owm_id="2639912">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Ripon" owm_id="2639323">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Salford" owm_id="2638671">
+            <district name="" zipcode="450000" />
+        </city>
+
+        <city name="Salisbury" owm_id="2638663">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Sheffield" owm_id="2638077">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Southampton" owm_id="2637487">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="St Albans" owm_id="2638867">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Stoke-on-Trent" owm_id="2636841">
+            <district name="" zipcode="450000" />
+        </city>
+
+        <city name="Sunderland" owm_id="2636531">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Truro" owm_id="7298372">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Wakefield" owm_id="2634910">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Wells" owm_id="2634569">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Westminster" owm_id="2634341">
+            <district name="" zipcode="450000" />
+        </city>
+
+        <city name="Winchester" owm_id="2633858">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Wolverhampton" owm_id="2633691">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Worcester" owm_id="2633563">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="York" owm_id="2633352">
+            <district name="" zipcode="450000" />
+        </city>
+
+    </province>
+
+    <province name="Ireland">
+        <city name="Armagh" owm_id="2657060">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Belfast" owm_id="2655984">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Londonderry" owm_id="2643734">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Lisburn" owm_id="2644411">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Newry" owm_id="2641581">
+            <district name="" zipcode="450000" />
+        </city>
+    </province>
+
+    <province name="Scotland">
+        <city name="Aberdeen" owm_id="2657832">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Dundee" owm_id="2650752">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Edinburgh" owm_id="2650225">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Glasgow" owm_id="2648579">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Inverness" owm_id="2646088">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Stirling" owm_id="2636909">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Perth" owm_id="2640358">
+            <district name="" zipcode="450000" />
+        </city>
+    </province>
+
+    <province name="Wales">
+        <city name="Bangor" owm_id="7298620">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Cardiff" owm_id="2653822">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Newport" owm_id="2641594">
+            <district name="" zipcode="450000" />
+        </city>
+        <city name="Swansea" owm_id="2636432">
+            <district name="" zipcode="450000" />
+        </city>
+
+        <city name="St. David's" owm_id="2636432">
+            <district name="" zipcode="450000" />
+        </city>
+    </province>
+</root>

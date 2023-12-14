@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:background="@color/cloudwarm_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/llTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top9_margin">
+        <TextView android:textSize="@dimen/text_size_little" android:textColor="#dc4e28" android:gravity="center" android:id="@+id/tvStart" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dialog_program_start" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/text_size_little" android:textColor="#dc4e28" android:gravity="center" android:id="@+id/tvEnd" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dialog_program_end" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/text_size_little" android:textColor="#dc4e28" android:gravity="center" android:id="@+id/tvTemp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dialog_program_temperature" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/llWheel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_top9_margin" android:layout_marginTop="@dimen/activity_top9_margin" android:layout_marginRight="@dimen/activity_top9_margin">
+        <com.szacs.ferroliconnect.widget.wheel.WheelView android:id="@+id/wvStartHour" android:layout_width="@dimen/wheel_width_1" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/wheel_text_size_2" android:textColor="@color/cloudwarm_orange" android:layout_gravity="center" android:id="@+id/tvMH" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":"/>
+        <com.szacs.ferroliconnect.widget.wheel.WheelView android:id="@+id/wvStartMin" android:layout_width="@dimen/wheel_width_1" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/wheel_text_size_2" android:textColor="@color/cloudwarm_orange" android:layout_gravity="center" android:id="@+id/tvBL" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" ~ "/>
+        <com.szacs.ferroliconnect.widget.wheel.WheelView android:id="@+id/wvEndHour" android:layout_width="@dimen/wheel_width_1" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/wheel_text_size_2" android:textColor="@color/cloudwarm_orange" android:layout_gravity="center" android:id="@+id/tvMH2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":"/>
+        <com.szacs.ferroliconnect.widget.wheel.WheelView android:id="@+id/wvEndMin" android:layout_width="@dimen/wheel_width_1" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/wheel_text_size_2" android:textColor="@color/cloudwarm_orange" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="    "/>
+        <com.szacs.ferroliconnect.widget.wheel.WheelView android:id="@+id/wvTempInt" android:layout_width="@dimen/wheel_width_1" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/wheel_text_size_2" android:textColor="@color/cloudwarm_orange" android:layout_gravity="center" android:id="@+id/tvDot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="."/>
+        <com.szacs.ferroliconnect.widget.wheel.WheelView android:id="@+id/wvTempFloat" android:layout_width="@dimen/wheel_width_1" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/wheel_text_size_2" android:textColor="@color/cloudwarm_orange" android:layout_gravity="center" android:id="@+id/tvUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="°"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top9_margin" android:layout_marginBottom="@dimen/activity_top9_margin">
+        <ImageView android:id="@+id/ivCancel" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:src="@drawable/cancel"/>
+        <ImageView android:id="@+id/ivConfirm" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:layout_marginLeft="@dimen/activity_width2" android:src="@drawable/confirm"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/muProgram" android:orderInCategory="200" android:title="@string/menu_program" app:showAsAction="never"/>
+    <item android:id="@+id/muGatewayInfo" android:orderInCategory="300" android:title="@string/menu_thermostat_information" app:showAsAction="never"/>
+    <item android:id="@+id/muHeatingHistory" android:orderInCategory="400" android:title="@string/menu_historical_data" app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/cloudwarm_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textColor="@color/cloudwarm_grey" android:gravity="center" android:id="@+id/tvTitle" android:layout_width="match_parent" android:layout_height="40dp" android:text="@string/dialog_please_choose_city"/>
+    <com.szacs.ferroliconnect.widget.LocationPicker android:id="@+id/lp_location" android:layout_width="match_parent" android:layout_height="300dp"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top9_margin" android:layout_marginBottom="@dimen/activity_top9_margin">
+        <ImageView android:id="@+id/ivCancel" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:src="@drawable/cancel"/>
+        <ImageView android:id="@+id/ivConfirm" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:layout_marginLeft="@dimen/activity_width2" android:src="@drawable/confirm"/>
+    </LinearLayout>
+</LinearLayout>

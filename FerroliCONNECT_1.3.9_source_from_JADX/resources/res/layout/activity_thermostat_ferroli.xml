@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/mainLinearLayout" android:background="@color/ferroli_boiler_thermostat_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/llWeather" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/ivWeather" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginLeft="@dimen/weather_margin" android:src="@drawable/ic_out_temp" android:adjustViewBounds="true" android:layout_marginStart="@dimen/weather_margin"/>
+                <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/cloudwarm_grey" android:layout_gravity="center_vertical" android:id="@+id/tvTempOut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_size_little" android:text="- -" android:layout_marginStart="@dimen/text_size_little"/>
+                <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/cloudwarm_grey" android:layout_gravity="center_vertical" android:id="@+id/tvTempOutUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="°C"/>
+                <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/cloudwarm_grey" android:id="@+id/tvLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+                <ImageView android:layout_width="@dimen/activity_boiler_image_bottom_button" android:layout_height="@dimen/activity_boiler_image_bottom_button" android:src="@drawable/indoor_temp"/>
+                <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/cloudwarm_grey" android:layout_gravity="center_vertical" android:id="@+id/tvTempNow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_size_little" android:text="- -" android:layout_marginStart="@dimen/text_size_little"/>
+                <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/cloudwarm_grey" android:layout_gravity="center_vertical" android:id="@+id/tvTempNowUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/weather_margin" android:text="°C" android:layout_marginEnd="@dimen/weather_margin"/>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/cloudwarm_grey" android:id="@+id/tv_location1" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/weather_margin" android:layout_alignParentLeft="true"/>
+            <ImageView android:id="@+id/iv_low_battery" android:visibility="invisible" android:layout_width="@dimen/dp_60" android:layout_height="@dimen/dp_25" android:layout_marginRight="@dimen/weather_margin" android:src="@drawable/low_batteries" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="3.5">
+        <com.szacs.ferroliconnect.widget.TemperLayout android:id="@+id/llTempSetting" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/pro_heat_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <ImageView android:id="@+id/pro_heat_img" android:layout_width="@dimen/activity_boiler_image_4" android:layout_height="@dimen/activity_boiler_image_bottom_button" android:src="@drawable/heating_off"/>
+            <TextView android:textSize="@dimen/text_size_little" android:textColor="@color/cloudwarm_grey" android:id="@+id/pro_heat_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top10_margin" android:text="@string/room_heating_status_stop"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1.6">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/llManual" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/ivHeating" android:visibility="invisible" android:layout_width="@dimen/activity_boiler_image_4" android:layout_height="@dimen/activity_boiler_image_bottom_button" android:src="@drawable/heating_off"/>
+            <TextView android:textSize="@dimen/text_size_little" android:textColor="@color/cloudwarm_grey" android:id="@+id/tvHeating" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top10_margin" android:text="@string/room_heating_status_stop"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/llProgram" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <HorizontalScrollView android:id="@+id/hsvProgram" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.szacs.ferroliconnect.widget.wheel.BarViewBeSmart196 android:id="@+id/bvProgram" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+            </HorizontalScrollView>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/llholiday" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/text_size_middle2" android:textColor="@color/cloudwarm_grey" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/room_holiday_end_date"/>
+            <TextView android:textSize="@dimen/text_size_middle2" android:textColor="@color/cloudwarm_grey" android:id="@+id/end_date" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="2019-12-03"/>
+            <ImageView android:id="@+id/holiday_set" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="10dp" android:src="@drawable/set"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/llOff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/ivHeating3" android:visibility="invisible" android:layout_width="@dimen/activity_boiler_image_4" android:layout_height="@dimen/activity_boiler_image_bottom_button" android:src="@drawable/heating_off"/>
+            <TextView android:textSize="@dimen/text_size_little" android:textColor="@color/cloudwarm_grey" android:id="@+id/tvHeating3" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top10_margin" android:text="@string/room_heating_status_stop"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/rlNotice" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="20dp" android:layout_alignParentBottom="true">
+            <TextView android:textColor="@color/cloudwarm_orange_alpha_dark" android:id="@+id/tvNotice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="@color/cloudwarm_grey_lite_2" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/llModel276" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <RelativeLayout android:id="@+id/rlManualButton" android:background="@color/ferroli_green" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:id="@+id/ivManual" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:src="@drawable/manual_button" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <View android:background="@color/cloudwarm_grey_lite_2" android:layout_width="0.5dp" android:layout_height="match_parent"/>
+        <RelativeLayout android:id="@+id/rlTimingButton" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:id="@+id/ivTimming" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:src="@drawable/timming_button_gray" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <View android:background="@color/cloudwarm_grey_lite_2" android:layout_width="0.5dp" android:layout_height="match_parent"/>
+        <RelativeLayout android:id="@+id/rlHoliday" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:id="@+id/ivHoliday" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:src="@drawable/icon_holiday_gray" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <View android:background="@color/cloudwarm_grey_lite_2" android:layout_width="0.5dp" android:layout_height="match_parent"/>
+        <RelativeLayout android:id="@+id/rlStandbyButton" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:id="@+id/ivStandby" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:src="@drawable/standby_button_gray" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

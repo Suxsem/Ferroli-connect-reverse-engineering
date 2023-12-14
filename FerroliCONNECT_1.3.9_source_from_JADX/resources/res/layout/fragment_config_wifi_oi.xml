@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/text_size_middle" android:textColor="@color/cloudwarm_orange" android:id="@+id/tvStep2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="30dp" android:text="@string/configure_wifi_press_set_button"/>
+    <RelativeLayout android:visibility="visible" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <ImageView android:id="@+id/iv_config_tip" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="30dp" android:src="@drawable/ic_distribution_net_step"/>
+        <View android:id="@+id/vWiFi" android:background="#ffffff" android:visibility="gone" android:layout_width="100dp" android:layout_height="200dp" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_alignBaseline="@+id/tvThermostatFront" android:layout_alignLeft="@+id/tvThermostatFront" android:layout_alignTop="@+id/tvThermostatFront"/>
+        <ImageView android:id="@+id/tvThermostatFront" android:visibility="gone" android:layout_width="250dp" android:layout_height="250dp" android:src="@drawable/thermostat_front" android:layout_centerInParent="true"/>
+        <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-30dp" android:src="@drawable/thermostat_side" android:layout_toRightOf="@+id/tvThermostatFront" android:layout_alignTop="@+id/tvThermostatFront"/>
+    </RelativeLayout>
+</LinearLayout>

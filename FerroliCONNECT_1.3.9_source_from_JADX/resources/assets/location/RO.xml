@@ -1,0 +1,144 @@
+<root>
+    <province name="Nord-Vest">
+        <city name="Bihor" owm_id="684878">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Bistrița-Năsăud" owm_id="684657">
+            <district name="" zipcode="420000" />
+        </city>
+        <city name="Cluj" owm_id="681291">
+            <district name="" zipcode="400000" />
+        </city>
+        <city name="Maramureș" owm_id="673887">
+            <district name="" zipcode="430000" />
+        </city>
+        <city name="Satu Mare" owm_id="667869">
+            <district name="" zipcode="440000" />
+        </city>
+        <city name="Sălaj" owm_id="668248">
+            <district name="" zipcode="450000" />
+        </city>
+    </province>
+    <province name="Centru">
+        <city name="Alba" owm_id="686581">
+            <district name="" zipcode="510000" />
+        </city>
+        <city name="Brașov" owm_id="683843">
+            <district name="" zipcode="500000" />
+        </city>
+        <city name="Covasna" owm_id="680428">
+            <district name="" zipcode="520000" />
+        </city>
+        <city name="Harghita" owm_id="676309">
+            <district name="" zipcode="530000" />
+        </city>
+        <city name="Mureș" owm_id="672628">
+            <district name="" zipcode="540000" />
+        </city>
+        <city name="Sibiu" owm_id="667267">
+            <district name="" zipcode="550000" />
+        </city>
+    </province>
+    <province name="Nord-Est">
+        <city name="Bacău" owm_id="685947">
+            <district name="" zipcode="600000" />
+        </city>
+        <city name="Botoșani" owm_id="684038">
+            <district name="" zipcode="710000" />
+        </city>
+        <city name="Iași" owm_id="675809">
+            <district name="" zipcode="700000" />
+        </city>
+        <city name="Neamț" owm_id="672460">
+            <district name="" zipcode="610000" />
+        </city>
+        <city name="Suceava" owm_id="665849">
+            <district name="" zipcode="720000" />
+        </city>
+        <city name="Vaslui" owm_id="663116">
+            <district name="" zipcode="730000" />
+        </city>
+    </province>
+    <province name="Sud-Est">
+        <city name="Brăila" owm_id="683901">
+            <district name="" zipcode="810000" />
+        </city>
+        <city name="Buzău" owm_id="683121">
+            <district name="" zipcode="120000" />
+        </city>
+        <city name="Constanța" owm_id="680962">
+            <district name="" zipcode="900000" />
+        </city>
+        <city name="Galați" owm_id="677697">
+            <district name="" zipcode="800000" />
+        </city>
+        <city name="Tulcea" owm_id="664517">
+            <district name="" zipcode="820000" />
+        </city>
+        <city name="Vrancea" owm_id="662447">
+            <district name="" zipcode="620000" />
+        </city>
+    </province>
+    <province name="Sud - Muntenia">
+        <city name="Argeș" owm_id="686192">
+            <district name="" zipcode="110000" />
+        </city>
+        <city name="Călărași" owm_id="683020">
+            <district name="" zipcode="910000" />
+        </city>
+        <city name="Dâmbovița" owm_id="679385">
+            <district name="" zipcode="130000" />
+        </city>
+        <city name="Giurgiu" owm_id="677104">
+            <district name="" zipcode="080000" />
+        </city>
+        <city name="Ialomița" owm_id="675848">
+            <district name="" zipcode="920000" />
+        </city>
+        <city name="Prahova" owm_id="669737">
+            <district name="" zipcode="100000" />
+        </city>
+        <city name="Teleorman" owm_id="665283">
+            <district name="" zipcode="140000" />
+        </city>
+    </province>
+    <province name="București - Ilfov">
+        <city name="Bucharest" owm_id="683506">
+            <district name="" zipcode="010000" />
+        </city>
+        <city name="Ilfov" owm_id="865518">
+            <district name="" zipcode="070000" />
+        </city>
+    </province>
+    <province name="Sud-Vest Oltenia">
+        <city name="Dolj" owm_id="679134">
+            <district name="" zipcode="200000" />
+        </city>
+        <city name="Gorj" owm_id="676898">
+            <district name="" zipcode="210000" />
+        </city>
+        <city name="Mehedinți" owm_id="673612">
+            <district name="" zipcode="220000" />
+        </city>
+        <city name="Olt" owm_id="671857">
+            <district name="" zipcode="230000" />
+        </city>
+        <city name="Vâlcea" owm_id="668872">
+            <district name="" zipcode="240000" />
+        </city>
+    </province>
+    <province name="Vest">
+        <city name="Arad" owm_id="686253">
+            <district name="" zipcode="310000" />
+        </city>
+        <city name="Caraș-Severin" owm_id="682714">
+            <district name="" zipcode="320000" />
+        </city>
+        <city name="Hunedoara" owm_id="675917">
+            <district name="" zipcode="330000" />
+        </city>
+        <city name="Timiș" owm_id="665091">
+            <district name="" zipcode="300000" />
+        </city>
+    </province>
+</root>

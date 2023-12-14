@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/llRoom" android:background="@drawable/house_bg" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="50dp" android:layout_marginTop="50dp" android:layout_marginRight="50dp" android:layout_weight="1">
+        <ImageView android:id="@+id/ivRoom" android:layout_width="@dimen/choose_image_width1" android:layout_height="@dimen/choose_image_height1" android:src="@drawable/house"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="@dimen/text_size_middle" android:textColor="@color/cloudwarm_white" android:gravity="center" android:id="@+id/tvRoom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/choose_top_margin" android:text="@string/choose_boiler_room_enter_room"/>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="50dp"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/llBoiler" android:background="@drawable/house_bg" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:layout_marginBottom="50dp" android:layout_weight="1">
+        <ImageView android:id="@+id/ivBoiler" android:layout_width="@dimen/choose_image_width2" android:layout_height="@dimen/choose_image_height2" android:src="@drawable/boiler"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="@dimen/text_size_middle" android:textColor="@color/cloudwarm_white" android:gravity="center" android:id="@+id/tvBoiler" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/choose_top_margin" android:text="@string/choose_boiler_room_control_boiler"/>
+    </LinearLayout>
+</LinearLayout>

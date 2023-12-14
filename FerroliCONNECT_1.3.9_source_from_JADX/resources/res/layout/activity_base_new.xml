@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/rootLayout" android:background="@color/cloudwarm_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p003v7.widget.Toolbar android:theme="@style/AppTheme.Dark" android:id="@+id/my_toolbar" android:background="@color/ferroli_green" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:navigationIcon="@drawable/back_button_selector" app:title="" app:titleTextAppearance="@style/ToolbarTitle">
+        <TextView android:textAppearance="@style/ToolbarTitle" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+    </android.support.p003v7.widget.Toolbar>
+    <android.support.p000v4.widget.DrawerLayout android:id="@+id/drawer_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/llMain" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <android.support.design.widget.NavigationView android:layout_gravity="right" android:id="@+id/nav_view" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="match_parent" app:headerLayout="@layout/nav_header_main" app:menu="@menu/activity_main_drawer"/>
+    </android.support.p000v4.widget.DrawerLayout>
+</LinearLayout>

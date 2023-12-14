@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/cloudwarm_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textColor="@color/cloudwarm_grey" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tsp_choose_tsp"/>
+            <com.aigestudio.wheelpicker.view.WheelCurvedPicker android:id="@+id/wvTSPIndex" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top9_margin"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textColor="@color/cloudwarm_grey" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tsp_edit_tsp"/>
+            <com.aigestudio.wheelpicker.view.WheelCurvedPicker android:id="@+id/wvTSPValue" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top9_margin"/>
+            <TextView android:textColor="@color/cloudwarm_grey" android:gravity="center" android:id="@+id/tvLoading" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/activity_top9_margin" android:text="@string/public_loading"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top9_margin" android:layout_marginBottom="@dimen/activity_top9_margin">
+        <ImageView android:id="@+id/ivCancel" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:src="@drawable/cancel"/>
+        <ImageView android:id="@+id/ivConfirm" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:layout_marginLeft="@dimen/activity_width2" android:src="@drawable/confirm"/>
+    </LinearLayout>
+</LinearLayout>

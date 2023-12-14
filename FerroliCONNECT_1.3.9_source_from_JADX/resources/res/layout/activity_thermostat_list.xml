@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.baoyz.widget.PullRefreshLayout android:id="@+id/swipeRefreshLayout" android:layout_width="match_parent" android:layout_height="match_parent" app:refreshType="0">
+        <com.baoyz.swipemenulistview.SwipeMenuListView android:id="@+id/listViewThermostat" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="#686868" android:dividerHeight="1dp"/>
+    </com.baoyz.widget.PullRefreshLayout>
+</LinearLayout>

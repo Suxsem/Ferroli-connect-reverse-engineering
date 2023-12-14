@@ -1,0 +1,416 @@
+<root>
+    <province name="Abruzzi">
+        <city name="L'Aquila" owm_id="6541474">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Teramo" owm_id="6539726">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Chieti" owm_id="6538868">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Pescara" owm_id="3166235">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+
+    <province name="Basilicata">
+        <city name="Potenza" owm_id="3170027">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Matera" owm_id="6540110">
+            <district name="" zipcode="410000" />
+        </city>
+
+    </province>
+
+    <province name="Calabria">
+        <city name="Catanzaro" owm_id="2523045">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Cosenza" owm_id="2523623">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Crotone" owm_id="6458615">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Reggio di Calabria" owm_id="2525587">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Vibo Valentia" owm_id="6542288">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+
+    <province name="Campania">
+        <city name="Napoli" owm_id="3172394">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Avellino" owm_id="3182649">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Benevento" owm_id="6542123">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Caserta" owm_id="3179865">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Salerno" owm_id="3168673">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+
+    <province name="Emilia-Romagna">
+        <city name="Bologna" owm_id="6542120">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Parma" owm_id="3171456">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Piacenza" owm_id="3171057">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Reggio nell'Emilia" owm_id="3172980">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Modena" owm_id="6538451">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Rimini" owm_id="3164658">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Ferrara" owm_id="6542120">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Ravenna" owm_id="6541838">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+
+    <province name="Friuli-Venezia Giulia">
+        <city name="Trieste" owm_id="3165186">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Udine" owm_id="3219982">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+
+    <province name="Lazio">
+        <city name="Provincia di Frosinone" owm_id="6541853">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Provincia di Latina" owm_id="3178631">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Provincia di Rieti" owm_id="3169411">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Provincia di Viterbo" owm_id="6540107">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Città metropolitana di Roma Capitale" owm_id="6538674">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+
+    <province name="Liguria">
+        <city name="Genova" owm_id="3169980">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Imperia" owm_id="6541484">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Provincia della Spezia" owm_id="6539672">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Savona" owm_id="6542009">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+
+    <province name="Lombardia">
+        <city name="Milano" owm_id="6542351">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Bergamo" owm_id="3177672">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Brescia" owm_id="3174478">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Como" owm_id="3175936">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Cremona" owm_id="6540408">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Lecco" owm_id="6535768">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Lodi" owm_id="6536160">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Mantova" owm_id="6541855">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Monza e della Brianza" owm_id="6536522">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Pavia" owm_id="3171364">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Sondrio" owm_id="6539617">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Varese" owm_id="3166440">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+    <province name="Marche">
+        <city name="Ancona" owm_id="6536781">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Ascoli Piceno" owm_id="3182748">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Fermo" owm_id="3182628">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Macerata" owm_id="6539726">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Pesaro e Urbino" owm_id="3171172">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+    <province name="Molise">
+        <city name="Campobasso" owm_id="3172243">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Isernia" owm_id="3175444">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+
+    <province name="Piemonte">
+        <city name="Torino" owm_id="3167990">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Alessandria" owm_id="6542120">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Asti" owm_id="6539606">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Biella" owm_id="6539582">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Cuneo" owm_id="6540134">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Novara" owm_id="6539156">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Verbano Cusio Ossola" owm_id="3180389">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Vercelli" owm_id="6536054">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+
+    <province name="Puglia">
+        <city name="Bari" owm_id="3173302">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Barletta-Andria-Trani" owm_id="3165322">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Brindisi" owm_id="6537598">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Foggia" owm_id="3176885">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Lecce" owm_id="6537598">
+            <district name="" zipcode="410000" />
+        </city>
+
+        <city name="Taranto" owm_id="6542154">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+    <province name="Sardegna">
+        <city name="Cagliari" owm_id="6538453">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Carbonia-Iglesias" owm_id="6540123">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Medio Campidano" owm_id="6538453">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Nuoro" owm_id="3172153">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Ogliastra" owm_id="6538453">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Olbia-Tempio" owm_id="6457401">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Oristano" owm_id="6540123">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Sassari" owm_id="6539357">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+    <province name="Sicilia">
+        <city name="Palermo" owm_id="6542127">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Agrigento" owm_id="6541341">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Caltanissetta" owm_id="2524393">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Catania" owm_id="6542070">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Enna" owm_id="6542104">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Messina" owm_id="2525635">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Ragusa" owm_id="6540063">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Siracusa" owm_id="6534257">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Trapani" owm_id="6539110">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+    <province name="Toscana">
+        <city name="Firenze" owm_id="3167062">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Arezzo" owm_id="6536846">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Grosseto" owm_id="3176849">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Livorno" owm_id="3174658">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Lucca" owm_id="3174529">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Massa-Carrara" owm_id="6536808">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Pisa" owm_id="6542122">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Pistoia" owm_id="6541554">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Prato" owm_id="3166850">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Siena" owm_id="6541098">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+    <province name="Trentino-Alto Adige">
+        <city name="Trento" owm_id="6541469">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Bolzano" owm_id="6536698">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+    <province name="Umbria">
+        <city name="Perugia" owm_id="3176739">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Terni" owm_id="6541116">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+    <province name="Valle d'Aosta">
+        <city name="Aosta" owm_id="6540662">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+    <province name="Veneto">
+        <city name="Venezia" owm_id="3164603">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Belluno" owm_id="6536651">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Padova" owm_id="6534799">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Treviso" owm_id="3173985">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Rovigo" owm_id="6541852">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Verona" owm_id="6538451">
+            <district name="" zipcode="410000" />
+        </city>
+        <city name="Vicenza" owm_id="6541465">
+            <district name="" zipcode="410000" />
+        </city>
+    </province>
+</root>

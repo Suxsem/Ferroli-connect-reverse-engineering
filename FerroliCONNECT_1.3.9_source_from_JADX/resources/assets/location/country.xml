@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	@ProjectName : World's Codes;
+	@Author:WangSu
+	@Create Date:2009-12-27 19:27:30
+	@Output to File : create.xml
+	@Overview:
+	这个文档是基于 ISO 3166 标准的国家代码及名称添加常用的另名，电话区号等制作而成，总计 246 个国家;
+	数据来源均为网络采集，并由程序生成，其中：
+
+		Country_name  	为ISO文档中的名称;
+		
+		Code			为ISO文档中的二位字母代码;
+		
+		NumberCode		为国家数字代码，来源于维基百科;
+		
+		Country_name_CN	为第三方翻译的中文简体名称,来源于google Code;
+		
+		Alias_EN		为第三方提供的英文别名,来源于其它的表格中代码相同，英文名称写法却不同，由于不能确定准确名称，所以保留此字段。
+						仅当别名与Country_name不相同时才列出;
+
+		Alias_TW		台湾或香港地区使用的别名，来源于维基百科;
+		
+		Alias_HK		香港地区使用的别名，来源于维基百科;
+		
+		DialingCode		当地电话区号，来源于网络，仅190条记录，不排除记录不全或部份国家太穷没装电话的可能，使用时请注意;
+
+	当中文名称与港台地区名称相同时，则不列出其它两项别名;
+	当香港地区使用名称与台湾地区相同时，则不列出香港地区别名;
+
+	参考资源：
+		http://zh.wikipedia.org/zh-cn/ISO_3166-1
+		http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm
+		http://www.google.com/intl/zh-CN/apis/adwords/developer/adwords_api_geotarget.html
+		
+-->
+<List_Country>
+	<Country>
+		<Country_name>ALBANIA</Country_name>
+		<Code>AL</Code>
+		<Country_name_CN>阿尔巴尼亚</Country_name_CN>
+		<NumberCode>8</NumberCode>
+		<Alias_TW>阿爾巴尼亞</Alias_TW>
+		<DialingCode>355</DialingCode>
+	</Country>
+	<Country>
+		<Country_name>ANDORRA</Country_name>
+		<Code>AD</Code>
+		<Country_name_CN>安道尔</Country_name_CN>
+		<NumberCode>20</NumberCode>
+		<Alias_TW>安道爾</Alias_TW>
+		<DialingCode>376</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>ARGENTINA</Country_name>  
+		<Code>AR</Code>  
+		<Country_name_CN>阿根廷</Country_name_CN>
+		<NumberCode>32</NumberCode>
+		<DialingCode>54</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>AUSTRALIA</Country_name>  
+		<Code>AU</Code>  
+		<Country_name_CN>澳大利亚</Country_name_CN>
+		<NumberCode>36</NumberCode>
+		<Alias_TW>澳洲</Alias_TW>
+		<DialingCode>61</DialingCode>
+	</Country>  
+	<Country> 
+		<Country_name>AUSTRIA</Country_name>  
+		<Code>AT</Code>  
+		<Country_name_CN>奥地利</Country_name_CN>
+		<NumberCode>40</NumberCode>
+		<Alias_TW>奧地利</Alias_TW>
+		<DialingCode>43</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>BELARUS</Country_name>  
+		<Code>BY</Code>  
+		<Country_name_CN>白俄罗斯</Country_name_CN>
+		<NumberCode>112</NumberCode>
+		<Alias_TW>白俄羅斯</Alias_TW>
+		<DialingCode>375</DialingCode>
+	</Country>  
+	<Country> 
+		<Country_name>BELGIUM</Country_name>  
+		<Code>BE</Code>  
+		<Country_name_CN>比利时</Country_name_CN>
+		<NumberCode>56</NumberCode>
+		<Alias_TW>比利時</Alias_TW>
+		<DialingCode>32</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>BOSNIA AND HERZEGOVINA</Country_name>  
+		<Code>BA</Code>  
+		<Country_name_CN>波黑</Country_name_CN>
+		<NumberCode>70</NumberCode>
+		<Alias_EN>Bosnia (and) Herzegovina</Alias_EN>
+		<Alias_TW>波赫</Alias_TW>
+		<Alias_HK>波黑</Alias_HK>
+	</Country>
+	<Country> 
+		<Country_name>BRAZIL</Country_name>  
+		<Code>BR</Code>  
+		<Country_name_CN>巴西</Country_name_CN>
+		<NumberCode>76</NumberCode>
+		<DialingCode>55</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>CANADA</Country_name>  
+		<Code>CA</Code>  
+		<Country_name_CN>加拿大</Country_name_CN>
+		<NumberCode>124</NumberCode>
+		<DialingCode>1</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>CHILE</Country_name>  
+		<Code>CL</Code>  
+		<Country_name_CN>智利</Country_name_CN>
+		<NumberCode>152</NumberCode>
+		<DialingCode>56</DialingCode>
+	</Country>  
+	<Country> 
+		<Country_name>CHINA</Country_name>  
+		<Code>CN</Code>  
+		<Country_name_CN>中国</Country_name_CN>
+		<NumberCode>156</NumberCode>
+		<Alias_TW>大陸</Alias_TW>
+		<DialingCode>86</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>CROATIA</Country_name>  
+		<Code>HR</Code>  
+		<Country_name_CN>克罗地亚</Country_name_CN>
+		<NumberCode>191</NumberCode>
+		<Alias_TW>克羅地亞</Alias_TW>
+	</Country>
+	<Country> 
+		<Country_name>CZECH REPUBLIC</Country_name>  
+		<Code>CZ</Code>  
+		<Country_name_CN>捷克共和国</Country_name_CN>
+		<NumberCode>203</NumberCode>
+		<Alias_TW>捷克</Alias_TW>
+		<DialingCode>420</DialingCode>
+	</Country>  
+	<Country> 
+		<Country_name>DENMARK</Country_name>  
+		<Code>DK</Code>  
+		<Country_name_CN>丹麦</Country_name_CN>
+		<NumberCode>208</NumberCode>
+		<Alias_TW>丹麥</Alias_TW>
+		<DialingCode>45</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>ESTONIA</Country_name>  
+		<Code>EE</Code>  
+		<Country_name_CN>爱沙尼亚</Country_name_CN>
+		<NumberCode>233</NumberCode>
+		<Alias_TW>愛沙尼亞</Alias_TW>
+		<DialingCode>372</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>FINLAND</Country_name>  
+		<Code>FI</Code>  
+		<Country_name_CN>芬兰</Country_name_CN>
+		<NumberCode>246</NumberCode>
+		<Alias_TW>芬蘭</Alias_TW>
+		<DialingCode>358</DialingCode>
+	</Country>  
+	<Country> 
+		<Country_name>FRANCE</Country_name>  
+		<Code>FR</Code>  
+		<Country_name_CN>法国</Country_name_CN>
+		<NumberCode>250</NumberCode>
+		<Alias_TW>法國</Alias_TW>
+		<DialingCode>33</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>GERMANY</Country_name>  
+		<Code>DE</Code>  
+		<Country_name_CN>德国</Country_name_CN>
+		<NumberCode>276</NumberCode>
+		<Alias_TW>德國</Alias_TW>
+		<DialingCode>49</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>GREECE</Country_name>  
+		<Code>GR</Code>  
+		<Country_name_CN>希腊</Country_name_CN>
+		<NumberCode>300</NumberCode>
+		<Alias_TW>希臘</Alias_TW>
+		<DialingCode>30</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>HOLY SEE (VATICAN CITY STATE)</Country_name>  
+		<Code>VA</Code>  
+		<Country_name_CN>梵蒂冈城</Country_name_CN>
+		<NumberCode>336</NumberCode>
+		<Alias_EN>Vatican City (The Holy See)</Alias_EN>
+		<Alias_TW>梵蒂岡</Alias_TW>
+	</Country>
+	<Country> 
+		<Country_name>ICELAND</Country_name>  
+		<Code>IS</Code>  
+		<Country_name_CN>冰岛</Country_name_CN>
+		<NumberCode>352</NumberCode>
+		<Alias_TW>冰島</Alias_TW>
+		<DialingCode>354</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>IRELAND</Country_name>  
+		<Code>IE</Code>  
+		<Country_name_CN>爱尔兰</Country_name_CN>
+		<NumberCode>372</NumberCode>
+		<Alias_TW>愛爾蘭</Alias_TW>
+		<DialingCode>353</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>ITALY</Country_name>  
+		<Code>IT</Code>  
+		<Country_name_CN>意大利</Country_name_CN>
+		<NumberCode>380</NumberCode>
+		<Alias_TW>義大利</Alias_TW>
+		<DialingCode>39</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>JAPAN</Country_name>  
+		<Code>JP</Code>  
+		<Country_name_CN>日本</Country_name_CN>
+		<NumberCode>392</NumberCode>
+		<DialingCode>81</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>KOREA, REPUBLIC OF</Country_name>  
+		<Code>KR</Code>  
+		<Country_name_CN>韩国</Country_name_CN>
+		<NumberCode>410</NumberCode>
+		<Alias_EN>South Korea</Alias_EN>
+		<Alias_TW>韓國</Alias_TW>
+		<DialingCode>82</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>LATVIA</Country_name>  
+		<Code>LV</Code>  
+		<Country_name_CN>拉脱维亚</Country_name_CN>
+		<NumberCode>428</NumberCode>
+		<Alias_TW>拉脫維亞</Alias_TW>
+		<DialingCode>371</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>LIECHTENSTEIN</Country_name>  
+		<Code>LI</Code>  
+		<Country_name_CN>列支敦士登</Country_name_CN>
+		<NumberCode>438</NumberCode>
+		<Alias_TW>列支敦斯登</Alias_TW>
+		<DialingCode>423</DialingCode>
+	</Country>  
+	<Country> 
+		<Country_name>LITHUANIA</Country_name>  
+		<Code>LT</Code>  
+		<Country_name_CN>立陶宛</Country_name_CN>
+		<NumberCode>440</NumberCode>
+		<DialingCode>370</DialingCode>
+	</Country>  
+	<Country> 
+		<Country_name>LUXEMBOURG</Country_name>  
+		<Code>LU</Code>  
+		<Country_name_CN>卢森堡</Country_name_CN>
+		<NumberCode>442</NumberCode>
+		<Alias_TW>盧森堡</Alias_TW>
+		<DialingCode>352</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>MOLDOVA, REPUBLIC OF</Country_name>  
+		<Code>MD</Code>  
+		<Country_name_CN>摩尔多瓦</Country_name_CN>
+		<NumberCode>498</NumberCode>
+		<Alias_EN>Moldova</Alias_EN>
+		<Alias_TW>摩爾多瓦</Alias_TW>
+		<DialingCode>373</DialingCode>
+	</Country>  
+	<Country> 
+		<Country_name>MONACO</Country_name>  
+		<Code>MC</Code>  
+		<Country_name_CN>摩纳哥</Country_name_CN>
+		<NumberCode>492</NumberCode>
+		<Alias_TW>摩納哥</Alias_TW>
+		<DialingCode>377</DialingCode>
+	</Country>  
+	<Country> 
+		<Country_name>MONGOLIA</Country_name>  
+		<Code>MN</Code>  
+		<Country_name_CN>蒙古</Country_name_CN>
+		<NumberCode>496</NumberCode>
+		<Alias_HK>蒙古國</Alias_HK>
+		<DialingCode>976</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>NETHERLANDS</Country_name>  
+		<Code>NL</Code>  
+		<Country_name_CN>荷兰</Country_name_CN>
+		<NumberCode>528</NumberCode>
+		<Alias_TW>荷蘭</Alias_TW>
+		<DialingCode>31</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>NEW ZEALAND</Country_name>  
+		<Code>NZ</Code>  
+		<Country_name_CN>新西兰</Country_name_CN>
+		<NumberCode>554</NumberCode>
+		<Alias_TW>紐西蘭</Alias_TW>
+		<Alias_HK>新西蘭</Alias_HK>
+		<DialingCode>64</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>NORWAY</Country_name>  
+		<Code>NO</Code>  
+		<Country_name_CN>挪威</Country_name_CN>
+		<NumberCode>578</NumberCode>
+		<DialingCode>47</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>PAKISTAN</Country_name>  
+		<Code>PK</Code>  
+		<Country_name_CN>巴基斯坦</Country_name_CN>
+		<NumberCode>586</NumberCode>
+		<DialingCode>92</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>POLAND</Country_name>  
+		<Code>PL</Code>  
+		<Country_name_CN>波兰</Country_name_CN>
+		<NumberCode>616</NumberCode>
+		<Alias_TW>波蘭</Alias_TW>
+		<DialingCode>48</DialingCode>
+	</Country>  
+	<Country> 
+		<Country_name>PORTUGAL</Country_name>  
+		<Code>PT</Code>  
+		<Country_name_CN>葡萄牙</Country_name_CN>
+		<NumberCode>620</NumberCode>
+		<DialingCode>351</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>ROMANIA</Country_name>  
+		<Code>RO</Code>  
+		<Country_name_CN>罗马尼亚</Country_name_CN>
+		<NumberCode>642</NumberCode>
+		<Alias_TW>羅馬尼亞</Alias_TW>
+		<DialingCode>40</DialingCode>
+	</Country>  
+	<Country> 
+		<Country_name>RUSSIAN FEDERATION</Country_name>  
+		<Code>RU</Code>  
+		<Country_name_CN>俄罗斯</Country_name_CN>
+		<NumberCode>643</NumberCode>
+		<Alias_TW>俄羅斯</Alias_TW>
+		<DialingCode>7</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>SERBIA</Country_name>  
+		<Code>RS</Code>  
+		<Country_name_CN>塞尔维亚</Country_name_CN>
+		<NumberCode>688</NumberCode>
+		<Alias_TW>塞爾維亞</Alias_TW>
+	</Country>
+	<Country> 
+		<Country_name>SLOVAKIA</Country_name>  
+		<Code>SK</Code>  
+		<Country_name_CN>斯洛伐克</Country_name_CN>
+		<NumberCode>703</NumberCode>
+		<DialingCode>421</DialingCode>
+	</Country>  
+	<Country> 
+		<Country_name>SLOVENIA</Country_name>  
+		<Code>SI</Code>  
+		<Country_name_CN>斯洛文尼亚</Country_name_CN>
+		<NumberCode>705</NumberCode>
+		<Alias_TW>斯洛維尼亞</Alias_TW>
+		<Alias_HK>斯洛文尼亞</Alias_HK>
+		<DialingCode>386</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>SPAIN</Country_name>  
+		<Code>ES</Code>  
+		<Country_name_CN>西班牙</Country_name_CN>
+		<NumberCode>724</NumberCode>
+		<DialingCode>34</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>SWEDEN</Country_name>  
+		<Code>SE</Code>  
+		<Country_name_CN>瑞典</Country_name_CN>
+		<NumberCode>752</NumberCode>
+		<DialingCode>46</DialingCode>
+	</Country>  
+	<Country> 
+		<Country_name>SWITZERLAND</Country_name>  
+		<Code>CH</Code>  
+		<Country_name_CN>瑞士</Country_name_CN>
+		<NumberCode>756</NumberCode>
+		<DialingCode>41</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>UKRAINE</Country_name>  
+		<Code>UA</Code>  
+		<Country_name_CN>乌克兰</Country_name_CN>
+		<NumberCode>804</NumberCode>
+		<Alias_TW>烏克蘭</Alias_TW>
+		<DialingCode>380</DialingCode>
+	</Country>
+	<Country> 
+		<Country_name>UNITED KINGDOM</Country_name>  
+		<Code>GB</Code>  
+		<Country_name_CN>英国</Country_name_CN>
+		<NumberCode>826</NumberCode>
+		<Alias_EN>Great Britain (United Kingdom; England)</Alias_EN>
+		<Alias_TW>英國</Alias_TW>
+		<DialingCode>44</DialingCode>
+	</Country>  
+	<Country> 
+		<Country_name>UNITED STATES</Country_name>  
+		<Code>US</Code>  
+		<Country_name_CN>美国</Country_name_CN>
+		<NumberCode>840</NumberCode>
+		<Alias_EN>United States of America (USA)</Alias_EN>
+		<Alias_TW>美國</Alias_TW>
+		<DialingCode>1</DialingCode>
+	</Country>
+	<Country>
+		<Country_name>Not listed</Country_name>
+		<Code>NL</Code>
+		<Country_name_CN>其他</Country_name_CN>
+		<NumberCode>999</NumberCode>
+		<Alias_EN>Not listed</Alias_EN>
+		<Alias_TW>其他</Alias_TW>
+		<DialingCode>999</DialingCode>
+	</Country>
+</List_Country>
+

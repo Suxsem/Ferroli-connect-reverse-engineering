@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:padding="20dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RadioGroup android:id="@+id/rgHeatingTargetTempSettingOptions" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/rbAuto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/radio" android:text="@string/boiler_tech_auto"/>
+        <RadioButton android:textColor="@color/cloudwarm_grey_lite_2" android:id="@+id/rbManual" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:button="@drawable/radio" android:text="@string/boiler_tech_manual"/>
+    </RadioGroup>
+</LinearLayout>

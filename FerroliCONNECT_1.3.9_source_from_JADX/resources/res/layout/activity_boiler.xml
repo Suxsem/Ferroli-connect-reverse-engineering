@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/boilerLayout" android:background="@color/cloudwarm_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="4">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="2">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/llWeather" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/ivWeather" android:layout_width="@dimen/activity_boiler_image_bottom_button" android:layout_height="@dimen/activity_boiler_image_bottom_button" android:layout_marginLeft="@dimen/weather_margin" android:src="@drawable/weather_cloud" android:layout_marginStart="@dimen/weather_margin"/>
+                <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/cloudwarm_grey" android:layout_gravity="center_vertical" android:id="@+id/tvTempOut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_size_little" android:text="- -" android:layout_toRightOf="@+id/ivWeather" android:layout_alignBottom="@+id/ivWeather"/>
+                <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/cloudwarm_grey" android:layout_gravity="center_vertical" android:id="@+id/tvTempOutUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="°C"/>
+                <TextView android:textSize="@dimen/text_size_little" android:textColor="@color/cloudwarm_grey" android:id="@+id/tvLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/llTempBoiler" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                    <ImageView android:id="@+id/ivHeatingCurrentTemp" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:src="@drawable/heating_temperature"/>
+                    <TextView android:textSize="@dimen/text_size_middle" android:textColor="@color/cloudwarm_grey" android:gravity="right" android:layout_gravity="center_vertical" android:id="@+id/tvHeatingCurrentTemp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_size_little" android:text="N/A"/>
+                    <TextView android:textSize="@dimen/text_size_middle" android:textColor="@color/cloudwarm_grey" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/tvHEatingCurrentTempUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="°C"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/llPressure" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                    <ImageView android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:src="@drawable/system_pressure_copia"/>
+                    <TextView android:textSize="@dimen/text_size_middle" android:textColor="@color/cloudwarm_grey" android:gravity="right" android:layout_gravity="center_vertical" android:id="@+id/tvPressure" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_size_little" android:text="N/A"/>
+                    <TextView android:textSize="@dimen/text_size_middle" android:textColor="@color/cloudwarm_grey" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/tvPressureUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" bar"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="3"/>
+            <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout android:orientation="vertical" android:id="@+id/llTempSet" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerHorizontal="true">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/llSetTemperature" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textSize="@dimen/text_size_lxlarge" android:textColor="@color/cloudwarm_orange" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/tvSetTemperature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="N/A"/>
+                        <TextView android:textSize="@dimen/text_size_lxlarge" android:textColor="@color/cloudwarm_orange" android:layout_gravity="center_vertical" android:id="@+id/tvTempBoilerTargetUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="°"/>
+                        <ImageView android:id="@+id/ivHeatingTargetTempSet" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="@dimen/activity_boiler_image_2" android:layout_marginLeft="@dimen/activity_boiler_image_2" android:src="@drawable/set" android:layout_weight="1" android:layout_centerVertical="true"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/llTempDomestic" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textSize="@dimen/text_size_lxlarge" android:textColor="@color/cloudwarm_orange" android:id="@+id/tvTempDomesticTarget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="N/A"/>
+                        <TextView android:textSize="@dimen/text_size_lxlarge" android:textColor="@color/cloudwarm_orange" android:id="@+id/tvTempDomesticTargetUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="°"/>
+                        <ImageView android:id="@+id/ivDHWSet" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="@dimen/activity_boiler_image_2" android:layout_marginLeft="@dimen/activity_boiler_image_2" android:src="@drawable/set" android:layout_weight="1" android:layout_centerVertical="true"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/activity_boiler_image_2" android:layout_toLeftOf="@+id/llTempSet">
+                    <ImageView android:id="@+id/ivHeatingIcon" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="match_parent" android:src="@drawable/heating_icon" android:layout_weight="1"/>
+                    <ImageView android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="match_parent" android:src="@drawable/domestic_icon" android:layout_weight="1"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="3"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="8">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="3">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/ivHeating" android:layout_width="match_parent" android:layout_height="@dimen/activity_boiler_image" android:src="@drawable/heating_disable"/>
+                <TextView android:textSize="@dimen/text_size_little" android:textColor="@color/cloudwarm_grey" android:id="@+id/tvHeating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top10_margin" android:text="@string/boiler_heating_status_heating"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/ivFlame" android:layout_width="match_parent" android:layout_height="@dimen/activity_boiler_image" android:src="@drawable/noflame"/>
+                <TextView android:textSize="@dimen/text_size_little" android:textColor="@color/cloudwarm_grey" android:id="@+id/tvFlame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top10_margin" android:text="@string/boiler_tech_have_flame"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/ivError" android:layout_width="@dimen/activity_boiler_image" android:layout_height="@dimen/activity_boiler_image" android:src="@drawable/normal" android:layout_centerInParent="true"/>
+                    <ImageView android:id="@+id/ivRS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-15dp" android:src="@drawable/reset_button" android:layout_alignRight="@+id/ivError" android:layout_alignBottom="@+id/ivError"/>
+                </RelativeLayout>
+                <TextView android:textSize="@dimen/text_size_little" android:textColor="@color/cloudwarm_grey" android:id="@+id/tvError" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_top10_margin" android:text="@string/boiler_normal"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/hai_dun_blue" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5">
+            <RelativeLayout android:id="@+id/rlWinter" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/ivWinter" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:src="@drawable/winter_button" android:layout_centerInParent="true"/>
+                <View android:background="@color/cloudwarm_white" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_alignParentRight="true"/>
+                <View android:id="@+id/vWinterRedLine" android:background="@color/cloudwarm_orange" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="1dp" android:layout_marginTop="@dimen/activity_top10_margin" android:layout_below="@+id/ivWinter" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rlSummer" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/ivSummer" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:src="@drawable/summer_button" android:layout_centerInParent="true"/>
+                <View android:background="@color/cloudwarm_white" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:layout_alignParentRight="true"/>
+                <View android:id="@+id/vSummerRedLine" android:background="@color/cloudwarm_orange" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="1dp" android:layout_marginTop="@dimen/activity_top10_margin" android:layout_below="@+id/ivSummer" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rlStandby" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/ivStandby" android:layout_width="@dimen/activity_boiler_image_3" android:layout_height="@dimen/activity_boiler_image_3" android:src="@drawable/standby_button" android:layout_centerInParent="true"/>
+                <View android:id="@+id/vStandbyRedLine" android:background="@color/cloudwarm_orange" android:layout_width="@dimen/activity_boiler_image_2" android:layout_height="1dp" android:layout_marginTop="@dimen/activity_top10_margin" android:layout_below="@+id/ivStandby" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

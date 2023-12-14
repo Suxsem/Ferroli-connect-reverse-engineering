@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.github.barteksc.pdfviewer.PDFView android:id="@+id/pdf_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton android:textSize="15sp" android:textColor="#ffffff" android:id="@+id/btn_read" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="@dimen/dp_20" android:layout_marginRight="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_20" android:text="@string/dialog_read_privacy_title" app:qmui_backgroundColor="@color/color_2b7bd0" app:qmui_radius="@dimen/dp_50"/>
+</LinearLayout>

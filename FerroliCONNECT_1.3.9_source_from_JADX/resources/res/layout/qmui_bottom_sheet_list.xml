@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?attr/qmui_bottom_sheet_title_appearance" android:ellipsize="middle" android:gravity="center_vertical" android:id="@+id/title" android:background="?attr/qmui_bottom_sheet_title_bg" android:paddingLeft="?attr/qmui_bottom_sheet_list_item_padding_horizontal" android:paddingRight="?attr/qmui_bottom_sheet_list_item_padding_horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="?attr/qmui_bottom_sheet_title_height" android:singleLine="true"/>
+    <ListView android:id="@+id/listview" android:background="@color/qmui_config_color_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" android:dividerHeight="0dp"/>
+</LinearLayout>

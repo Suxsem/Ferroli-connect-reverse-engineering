@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="http_errors">
+        <item>Invalid email address</item>
+        <item>Invalid phone number</item>
+        <item>Phone number has been used</item>
+        <item>Phone number not same</item>
+        <item>Invalid phone number</item>
+        <item>Email subject error</item>
+        <item>Invalid parameters</item>
+        <item>Email has been used</item>
+        <item>User does not exist</item>
+        <item>Verify code has been send</item>
+        <item>Verify code send fail</item>
+        <item>Ip address error</item>
+        <item>Password must be 6-16 length</item>
+        <item>Verify code error</item>
+        <item>Verify code expired</item>
+        <item>Verify code invalid</item>
+        <item>Verify code has been used</item>
+        <item>Verify code format error</item>
+        <item>Device do not exist</item>
+        <item>username invalid</item>
+        <item>Email invalid</item>
+        <item>Device has been bound by other user</item>
+        <item>User invalid</item>
+        <item>Email does not exist</item>
+        <item>Username has been used</item>
+    </array>
+</resources>

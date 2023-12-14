@@ -1,0 +1,223 @@
+<root>
+    <province name="Andalucía">
+        <city name="Almería" owm_id="6355530">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Cádiz" owm_id="2520600">
+            <district name="" zipcode="410000"/>
+        </city>
+
+        <city name="Córdoba" owm_id="6357250">
+            <district name="" zipcode="410000"/>
+        </city>
+
+        <city name="Granada" owm_id="6357803">
+            <district name="" zipcode="410000"/>
+        </city>
+
+        <city name="Huelva" owm_id="6361023">
+            <district name="" zipcode="410000"/>
+        </city>
+
+        <city name="Jaén" owm_id="6358465">
+            <district name="" zipcode="410000"/>
+        </city>
+
+        <city name="Málaga" owm_id="2520577">
+            <district name="" zipcode="410000"/>
+        </city>
+
+        <city name="Sevilla" owm_id="6361041">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+    <province name="Aragón">
+        <city name="Zaragoza" owm_id="3123535">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Teruel" owm_id="2520543">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Huesca" owm_id="3120513">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+    <province name="Asturias">
+        <city name="Oviedo" owm_id="7115111">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+    <province name="Islas Baleares">
+        <city name="Palma de Mallorca" owm_id="2512989">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+    <province name="País Vasco">
+        <city name="Álava" owm_id="3116741">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Vizcaya" owm_id="6362424">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Guipúzcoa" owm_id="3130092">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+    <province name="Islas Canarias">
+        <city name="Las Palmas" owm_id="2510137">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Santa Cruz de Tenerife" owm_id="6360635">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+    <province name="Cantabria">
+        <city name="Santander" owm_id="3119441">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+    <province name="Castilla-La Mancha">
+        <city name="Albacete" owm_id="2522258">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Ciudad Real" owm_id="6357128">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Cuenca" owm_id="6357429">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Guadalajara" owm_id="6359279">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Toledo" owm_id="6361828">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+    <province name="Castilla y León">
+        <city name="Ávila" owm_id="6355632">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Burgos" owm_id="3107034">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="León" owm_id="3336900">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Palencia" owm_id="6355632">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Salamanca" owm_id="6360513">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Segovia" owm_id="3109256">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Soria" owm_id="3124936">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Valladolid" owm_id="6691623">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Zamora" owm_id="3128291">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+    <province name="Cataluña">
+        <city name="Barcelona" owm_id="3119123">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Gerona" owm_id="3123801">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Lérida" owm_id="3105921">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Tarragona" owm_id="3119231">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+    <province name="Extremadura">
+        <city name="Badajoz" owm_id="2516896">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Cáceres" owm_id="2520610">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+    <province name="Galicia">
+        <city name="La Coruña" owm_id="6357300">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Lugo" owm_id="6359189">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Orense" owm_id="3107686">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Pontevedra" owm_id="3113208">
+            <district name="" zipcode="410000"/>
+        </city>
+
+    </province>
+
+    <province name="Comunidad de Madrid">
+        <city name="Madrid" owm_id="3128832">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+    <province name="Región de Murcia">
+        <city name="Murcia" owm_id="6359513">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+    <province name="Navarra">
+        <city name="Pamplona" owm_id="6359715">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+    <province name="La Rioja">
+        <city name="Logroño" owm_id="3124936">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+    <province name="Comunidad Valenciana">
+        <city name="Alicante" owm_id="2521424">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Castellón" owm_id="2509509">
+            <district name="" zipcode="410000"/>
+        </city>
+        <city name="Valencia" owm_id="6362115">
+            <district name="" zipcode="410000"/>
+        </city>
+
+    </province>
+
+    <province name="Ceuta">
+        <city name="Ceuta" owm_id="6356921">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+    <province name="Melilla">
+        <city name="Melilla" owm_id="6356921">
+            <district name="" zipcode="410000"/>
+        </city>
+    </province>
+
+</root>

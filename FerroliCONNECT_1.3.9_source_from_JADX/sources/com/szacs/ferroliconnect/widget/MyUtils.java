@@ -1,0 +1,17 @@
+package com.szacs.ferroliconnect.widget;
+
+import android.content.Context;
+
+public class MyUtils {
+    public static int dip2px(Context context, float f) {
+        return (int) ((f * context.getResources().getDisplayMetrics().density) + 0.5f);
+    }
+
+    public static int px2dip(Context context, float f) {
+        return (int) ((f / context.getResources().getDisplayMetrics().density) + 0.5f);
+    }
+
+    public static int sp2px(Context context, float f) {
+        return (int) ((f * context.getResources().getDisplayMetrics().scaledDensity) + 0.5f);
+    }
+}
