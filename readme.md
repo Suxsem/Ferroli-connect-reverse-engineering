@@ -29,3 +29,8 @@ Additionally the gateway must receve weather information for better heating perf
 - Complete the reverse engineering of the application protocol
 - Implement an alternative server that conforms to the protocol and relays the information/commands to Home Assistant (maybe through mqtt)
 - (optional) Implement a custom Home Assistant card for the chrono thermostat
+
+## Alternative suggested solution
+
+Just throw away (or sell) your ferroli connect gateway and use an open therm board (about 20€), to integrate your ferroli boiler into your domotic system: https://github.com/Laxilef/OTGateway
+This is what I did, so do not expect any progress on this project by me, sorry.
